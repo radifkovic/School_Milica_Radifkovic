@@ -11,7 +11,7 @@ public class Student {
         this.lastName = "Radifković";
         this.yearOfBirth = 1988;
     }
-
+   
     public Student(String firstName, String lastName, int yearOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
