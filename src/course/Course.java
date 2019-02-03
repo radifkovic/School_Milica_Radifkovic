@@ -2,9 +2,9 @@ package course;
 
 public class Course {
 
-    String name;
-    int numberOfClasses;
-    String codeName;
+    public String name;
+    public int numberOfClasses;
+    public String codeName;
 
     public Course(){
         this.name = "QA";
