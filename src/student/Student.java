@@ -66,6 +66,16 @@ public class Student {
         return course;
     }
 
+    public void setCourse(Course course) {
+        this.course = course;
+    }
+
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
+    
+    
+
     public Computer getComputer() {
         return computer;
     }

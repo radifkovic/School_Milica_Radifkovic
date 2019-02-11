@@ -1,5 +1,7 @@
 package main;
 
+import computer.Computer;
+import course.Course;
 import student.Student;
 
 public class Main {
@@ -19,6 +21,16 @@ public class Main {
         
         student.info();
         
+        Student student1 = new Student();
+    
+        Course qaCourse = new Course();
+        Computer pentium4 = new Computer();
+        
+        student1.setCourse(qaCourse);
+        student1.setComputer(pentium4);
+        
+        System.out.println("vvs" + student1.setCourse(qaCourse));
+    
     }
     
 }
